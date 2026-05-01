@@ -1,0 +1,6 @@
+quarkus:
+  rest-client:
+    redirect-client:
+      follow-redirects: true
+      connect-timeout: 1000
+      read-timeout: 10000
