@@ -12,7 +12,7 @@ Minimal Java reproducer for a Quarkus REST client following a `302` returned fro
 ## Run
 
 ```bash
-mvn clean verify
+./mvnw clean verify
 ```
 
 ## Switch Quarkus versions
@@ -25,5 +25,5 @@ Change `quarkus.platform.version` in `pom.xml` between:
 Then rerun:
 
 ```bash
-mvn clean verify
+./mvnw clean verify
 ```
