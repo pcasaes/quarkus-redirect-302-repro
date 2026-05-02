@@ -2,6 +2,8 @@
 
 Minimal Java reproducer for a Quarkus REST client following a `302` returned from a `GET`.
 
+https://github.com/quarkusio/quarkus/issues/53914
+
 ## What it tests
 
 - A local JDK HTTP server returns `302 Location: /target` for `GET /redirect`
